@@ -29,14 +29,14 @@ const ChineseChess = () => {
             <ChineseChessTable Size={{x:10,y:10}} CarPos={carPosition}/>
             <label>移動車至 X (0-9):</label>
             <input 
-                type="text"
                 onChange={e=>{setCarInputX(e.target.value)}} 
-                value={carInputX}/>
+                value={carInputX}
+                type="number" min="0" max="9"/>
             <label>移動車至 Y(0-9):</label>
             <input 
                 onChange={e=>{setCarInputY(e.target.value)}} 
                 value={carInputY}
-                type="text"/>
+                type="number" min="0" max="9"/>
             <button onClick={()=>{
                 checkCarValid(carPosition,carInputX,carInputY)}}>Go</button>
         </div>
