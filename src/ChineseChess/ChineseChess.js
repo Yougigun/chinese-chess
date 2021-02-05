@@ -17,7 +17,7 @@ const ChineseChess = () => {
             ||((nextY<0)||(9<nextY))){
             setCarInputX(carPosition.x)
             setCarInputY(carPosition.y)
-            window.alert("cat not go there")
+            window.alert("Cannot go there.")
             return false
         }
         setCarPosition({x:nextX,y:nextY})
