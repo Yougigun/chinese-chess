@@ -33,6 +33,21 @@
         line-height: 30px;
     }
   }
+@media (max-width: 350px) {
+    .ChineseChessTable{
+        width: 200px;
+        height: 200px;
+        margin: 5px 0 5px 0;
+    }
+    .ChineseChessTable td{
+        width: 20px;
+        height: 20px;
+        border: 1px black solid;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 20px;
+    }
+  }
 
 
 
