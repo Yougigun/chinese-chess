@@ -1,0 +1,24 @@
+.ChineseChessTable{
+    width: 500px;
+    height: 500px;
+    margin: 20px 0 20px 0;
+}
+
+.ChineseChessTable > Table{
+    width: 100%;
+    height: 100%;
+}
+
+.ChineseChessTable td{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+
+
+
